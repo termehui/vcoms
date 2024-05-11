@@ -2,8 +2,8 @@
     <div style="display: inline-block">
         {{
             val
-                ? format == "ago"
-                    ? val!.fromNow()
+                ? format.includes("ago")
+                    ? format.replace("ago", val!.fromNow())
                     : val!.format(format)
                 : alter
         }}

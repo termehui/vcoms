@@ -16,7 +16,7 @@
                     <vJalaali value="2022-01-01T12:00:00Z" class="is-rtl" />
                     <vJalaali
                         value="2022-01-01T12:00:00Z"
-                        format="ago"
+                        format="انقضا: ago"
                         class="is-rtl"
                     />
                 </div>
